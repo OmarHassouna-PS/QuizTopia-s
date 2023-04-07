@@ -1,0 +1,118 @@
+:root {
+    --Pink-color: #4D47C3; 
+    --White: #fff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: var(--White);
+    background-image: url(../images/Background-SignUp.png);
+    background-repeat: no-repeat;
+    background-position: 30px 230px;
+    background-size: 700px;
+    background-attachment: fixed;
+    font-family: 'Poppins';
+}
+
+/* start hero section */
+
+.hero-text {
+    padding-bottom: 85px;
+}
+
+.contener-sing-in {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text h2{
+    font-weight: 900;
+    overflow-y: hidden;
+}
+
+.hero-text h3{
+    font-weight: 700;
+    font-size: 3rem;
+    overflow-y: hidden;
+}
+
+.hero-text p{
+    font-weight: 700;
+}
+
+.link-register{
+    font-weight: 900;
+    color: var(--Pink-color);
+}
+
+
+.contener-sing-in {
+    height: calc(100vh - 100px);
+}
+
+.form-control {
+    width: 370px;
+    height: 62px;
+    border-radius: 8px;
+    display: block;
+    margin-top: 30px;
+    max-width: 100%;
+}
+
+.btn {
+    background-color: var(--Pink-color);
+    color: var(--White);
+    width: 370px;
+    max-width: 100%;
+}
+
+.btn:hover {
+    background-color: #5c57c1;
+}
+
+
+.span-word {
+    color: var(--Pink-color);
+}
+/* end hero section */
+
+/* start Nav */
+
+.nav-link {
+    color: #4D47C3;
+    font-weight: 700;
+}
+
+.nav-link:hover, .link-register:hover {
+    color: #5c57c1;
+    font-size:150%;
+}
+
+.header, footer {
+    box-shadow: 0px 0px 20px grey;
+
+}
+
+.form-control {
+    background-color: #F0EFFF;
+}
+
+/* End Nav */
+
+@media only screen and (max-width: 768px) {
+    
+    .hero-text {
+        padding-bottom: 0px;
+    }
+
+    .img-fluid {
+        display: none;
+    }
+}

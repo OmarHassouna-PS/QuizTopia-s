@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- link style css  -->
+    <link rel="stylesheet" href="../CSS/QuestionStyle.css">
+    <!-- link bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- link icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question</title>
+</head>
+
+<body>
+
+
+      <header>  
+        <nav class="header" id="header">
+            <div class="container">
+                <a href="../index.html"><img class="img-fluid ms-5" src="/images/LogoQuizTopia.png" width="100px" height="100px" alt="logo-Wib"></a>
+                <ul class="main-nav">
+                    <li><a href="../index.html"><ion-icon name="home-outline"></ion-icon> &nbsp;&nbsp;Home</a></li>
+                    <li><a href="../index.html">Log Out &nbsp;<ion-icon name="log-in-outline"></ion-icon></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <!-- section number of Question -->
+        <div class="containerNumber">
+            <div class="parent-circle">
+                <div class="circle" id="num">
+                    <h3>1</h3>
+                </div>
+                <div class="circle" id="num1">
+                    <h3>2</h3>
+                </div>
+                <div class="circle" id="num2">
+                    <h3>3</h3>
+                </div>
+                <div class="circle" id="num3">
+                    <h3>4</h3>
+                </div>
+                <div class="circle active" id="num4">
+                    <h3>5</h3>
+                </div>
+            </div>
+            <div class="line">.</div>
+        </div>
+        <!-- section number of Question -->
+
+
+
+
+        <!-- section timer -->
+        <div class="container-timer">
+            <i class='bx bx-time-five'></i>
+            <span class="time">10:35</span>
+        </div>
+        <!-- section timer -->
+
+
+
+
+        <!-- section Question -->
+
+        <div class="container-Qs">
+            <div class="header">
+                <h1>What is the meaning of UI UX Design ?</h1>
+            </div>
+            <div class="answers">
+                <div class="container-radio">
+
+                    <div class="parent">
+                        <label><input type="radio" class="radio" name="answers" /><span>A</span></label>
+                        <label for="answers">User Interfoce and User Experience</label>
+                    </div>
+                    <div class="parent">
+                        <label><input type="radio" class="A" name="answers" /><span>B</span></label>
+
+                        <label for="answers">User Interfoce and User Experience</label>
+                    </div>
+                    <div class="parent">
+                        <label><input type="radio" class="A" name="answers" /><span>C</span></label>
+                        <label>User Interfoce and User Experience</label>
+                    </div>
+                    <div class="parent active">
+                        <label><input type="radio" class="A" name="answers" /><span>D</span></label>
+                        <label for="answers">User Interfoce and User Experience</label>
+                    </div>
+                    <div class="parent">
+                        <label><input type="radio" class="A" name="answers" /><span>E</span></label>
+                        <label for="answers">User Interfoce and User Experience</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section Question -->
+
+        <!--section next-->
+        <div class="container-next">
+            <input class="sub" type="submit" value="submit Quiz">
+            <button class="next">
+                <i class='bx bx-chevron-right'></i>
+            </button>
+        </div>
+        <!-- section next  -->
+
+
+
+    </div>
+
+
+
+    <!-- section footer -->
+    <footer class="footer text-center text-lg-start shadow-lg" id="footerEdit">
+        <!-- Copyright -->
+        <div class="text-center p-3">© 2023 Copyright, QuizTopia Team.</div>
+        <!-- Copyright -->
+      </footer>
+    <!-- section footer -->
+
+
+
+    <!-- script -->
+    <script src="../app.js"></script>
+    <script src="Question.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- script -->
+</body>
+
+</html>
