@@ -8,10 +8,11 @@ function appendUserName(user, idElement) {
     element.textContent = user.userName;
 }
 
+
 try {
     let user = getUser();
     appendUserName(user, 'heroName');
-
+    
 } catch (errMsg) {
     alert('You Must Sign in To open this page!');
     window.location.href = '../Pages/Sign_In.html';
